@@ -1,31 +1,35 @@
-# Project title
-React + PrimeReact DataTable with Click Row Selection and Custom Selection.​
+## Project title
+# PROJECT_TITLE — React + PrimeReact DataTable with Click Row Selection and Custom Selection.​
 
 # Overview
-This project demonstrates a PrimeReact DataTable that allows selecting rows by clicking anywhere on a row, supports single or multiple selection modes, and includes custom selection actions controlled via component state and callbacks. The app has two routes, Home and Table, implemented with React Router for simple client‑side navigation without full page reloads.​
+This application demonstrates a PrimeReact DataTable configured for intuitive row selection by clicking rows, supports single or multiple selection modes, and includes custom selection actions that programmatically select subsets of data based on business rules. Client‑side navigation is implemented with React Router to provide two pages, Home and Table, without full page reloads.​
 
 # Features
-Row selection by click using selectionMode with selection and onSelectionChange bindings, with metaKeySelection optionally disabled for direct clicks without Ctrl/Cmd.​
+Row selection by click using selectionMode, selection, and onSelectionChange, with metaKeySelection optionally disabled so users do not need Ctrl/Cmd to select items.​
 
-Custom selection actions (for example, “Select All In Stock” and “Clear Selection”) by computing subsets of items and assigning them to the DataTable’s selection state.​
+Custom selection actions such as “Select All In Stock” and “Clear Selection” driven by component state that updates the DataTable’s selection programmatically.​
 
-Two pages (Home and Table) set up using BrowserRouter, Routes, Route, and Link for SPA navigation.​
+Two routes (Home and Table) implemented with BrowserRouter, Routes, Route, and Link for straightforward single‑page app navigation.​
 
 # Tech stack
-React for component‑based UI and state management throughout the application.​
+React for component‑based UI and state management across pages and shared components.​
 
-PrimeReact DataTable and Column for robust tabular features, selection APIs, and event hooks like onSelectionChange.​
+PrimeReact and PrimeIcons for DataTable, Column, plus optional PrimeFlex utilities for layout.​
 
-React Router for declarative routing and navigation between pages within a single‑page app.​
+React Router for declarative routing between Home and Table pages in a SPA.​
 
-# Prerequisites
-Node.js and a package manager (npm, pnpm, or yarn) to install dependencies and run scripts locally.​
 
-PrimeReact, PrimeIcons, and PrimeFlex for the table component, icon set, and utility classes used in layout and buttons.​
+# Folder structure
+Use a simple structure that separates pages, shared components, and sample data for clarity and reuse during development and testing.​
 
-# Installation
-Install dependencies in your project:
+src/
 
-npm i react-router-dom primereact primeicons primeflex to add routing and PrimeReact libraries to your React app.​
+main.jsx
 
-Ensure the PrimeReact CSS and icons are imported so table styling and icons render correctly in the UI.
+App.jsx
+
+componenets/
+
+Home.jsx
+
+Table.jsx

@@ -1,5 +1,5 @@
-## Project title
-# PROJECT_TITLE — React + PrimeReact DataTable with Click Row Selection and Custom Selection.​
+# Project title
+ PROJECT_TITLE — React + PrimeReact DataTable with Click Row Selection and Custom Selection.​
 
 # Overview
 This application demonstrates a PrimeReact DataTable configured for intuitive row selection by clicking rows, supports single or multiple selection modes, and includes custom selection actions that programmatically select subsets of data based on business rules. Client‑side navigation is implemented with React Router to provide two pages, Home and Table, without full page reloads.​

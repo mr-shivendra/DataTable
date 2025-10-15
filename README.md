@@ -1,16 +1,31 @@
-# React + Vite
+#Project title
+React + PrimeReact DataTable with Click Row Selection and Custom Selection.​
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Overview
+This project demonstrates a PrimeReact DataTable that allows selecting rows by clicking anywhere on a row, supports single or multiple selection modes, and includes custom selection actions controlled via component state and callbacks. The app has two routes, Home and Table, implemented with React Router for simple client‑side navigation without full page reloads.​
 
-Currently, two official plugins are available:
+#Features
+Row selection by click using selectionMode with selection and onSelectionChange bindings, with metaKeySelection optionally disabled for direct clicks without Ctrl/Cmd.​
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Custom selection actions (for example, “Select All In Stock” and “Clear Selection”) by computing subsets of items and assigning them to the DataTable’s selection state.​
 
-## React Compiler
+Two pages (Home and Table) set up using BrowserRouter, Routes, Route, and Link for SPA navigation.​
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+#Tech stack
+React for component‑based UI and state management throughout the application.​
 
-## Expanding the ESLint configuration
+PrimeReact DataTable and Column for robust tabular features, selection APIs, and event hooks like onSelectionChange.​
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React Router for declarative routing and navigation between pages within a single‑page app.​
+
+#Prerequisites
+Node.js and a package manager (npm, pnpm, or yarn) to install dependencies and run scripts locally.​
+
+PrimeReact, PrimeIcons, and PrimeFlex for the table component, icon set, and utility classes used in layout and buttons.​
+
+#Installation
+Install dependencies in your project:
+
+npm i react-router-dom primereact primeicons primeflex to add routing and PrimeReact libraries to your React app.​
+
+Ensure the PrimeReact CSS and icons are imported so table styling and icons render correctly in the UI.

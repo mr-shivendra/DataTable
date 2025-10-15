@@ -36,6 +36,6 @@ Table.jsx
 
 
 # deployed link
-[table](https://example.com)
+[table](https://table.shivxendra.workers.dev/)
 
 

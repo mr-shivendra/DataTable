@@ -1,0 +1,25 @@
+.paginator{
+    width:20%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh auto;
+
+}
+
+.paginator>span{
+    font-size: 1.1em;
+    border: 1px solid grey;
+    padding:0.2em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.headers{
+    width:30%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.headers>input{
+    height: 30px;
+}

@@ -33,3 +33,9 @@ componenets/
 Home.jsx
 
 Table.jsx
+
+
+# deployed link
+[table](https://example.com)
+
+
